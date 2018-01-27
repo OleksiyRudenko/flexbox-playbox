@@ -1,0 +1,17 @@
+div.emulated-portview {
+    flex: 1 1 auto;
+
+    border: 1px dotted #333;
+    background-color: #eee;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emu-app-container {
+    width: 90%;
+    height: 90%;
+    border: 5px solid #444;
+    background-color: #666;
+}
