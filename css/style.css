@@ -4,4 +4,75 @@ html, body {
 
 body {
     font-family: 'Open Sans', Georgia, sans-serif;
+
+    display: flex;
+    flex-flow: column;
+}
+
+/* === COMMONS === */
+.dark {
+    background-color: #333;
+    color: #aaa;
+}
+
+.light {
+    background-color: #bbb;
+    color: #333;
+}
+
+.flex-float-right {
+    margin-left: auto;
+}
+
+
+h1 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0 0;
+}
+
+p {
+    margin: 0.5rem 0 0 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline dotted;
+    text-underline-position: under;
+}
+
+a:hover {
+    text-decoration: underline solid;
+}
+
+a i {
+  margin-right: 0.5rem;
+}
+
+/* === Top level === */
+header, footer, main {
+    padding: 1rem;
+
+    display: flex;
+}
+
+header, footer, main {
+    display: flex;
+}
+
+header {
+    flex-flow: column;
+}
+
+main, footer {
+    flex-flow: row wrap;
+}
+
+header, footer {
+    flex: 0 0 auto;
+}
+
+main {
+    flex: 1 1 auto;
+    position: relative;
+    overflow-y: auto;
 }
